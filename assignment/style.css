@@ -11,11 +11,17 @@ body {
 }
 
 .main-class {
-    color: bisque;
     background-color: lightslategray;
     background-image: url('record.png');
     background-repeat: repeat;
     width: 100%;
     min-height: 100vh;
     padding: 1em;
+}
+
+.main-inner-text {
+    color: thistle;
+    font-size: 50px;
+    mix-blend-mode: difference;
+    text-align: center;
 }
