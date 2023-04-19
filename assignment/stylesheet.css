@@ -1,10 +1,10 @@
-header {
+.header-styling {
     background-color: darkblue;
     color: aliceblue;
     text-align: center;
 }
 
-main {
+.main-styling {
     background-color: lightgrey;
     padding: 1em;
 }
