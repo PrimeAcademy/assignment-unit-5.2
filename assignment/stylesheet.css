@@ -1,0 +1,16 @@
+header {
+    background-color:#2E1114;
+    color:whitesmoke;
+    text-align: center;
+}
+
+main {
+    background-color:#adadad;
+    padding: 1em;
+    text-align: center;
+}
+
+body {
+    background:url(../assignment/record.png);
+    margin: 0%;
+}
