@@ -10,6 +10,29 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+  color: #5b6f8a;
+  background: rgb(243, 244, 246);
+  background: linear-gradient(
+    43deg,
+    rgba(243, 244, 246, 1) 23%,
+    rgba(250, 229, 244, 1) 38%,
+    rgba(80, 79, 229, 0.3) 46%,
+    rgba(255, 255, 255, 1) 62%
+  );
+}
+
+header {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6rem;
+  background-color: rgba(80, 79, 229, 0.2);
+  padding: 2rem;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2),
+    -1rem 0 0.4rem rgba(250, 229, 244, 1);
 }
 
 main {
@@ -19,18 +42,42 @@ main {
   justify-content: center;
   height: 80vh;
   position: relative;
+  background-color: rgba(243, 244, 246, 0.1);
 }
 
 .background-image {
-  /* position: absolute;
+  position: absolute;
   top: 0;
-  left: 0; */
-  /* width: 100%; */
-  /* height: 100vh; */
-  height: 100vh;
-  /* opacity: 0.2; */
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.1;
+  z-index: -1;
+  background: url('record.png') repeat;
+}
+
+.spinning-container {
+  background-color: rgba(80, 79, 229, 0.8);
+  border-radius: 6rem;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2),
+    -1rem 0 0.4rem rgba(250, 229, 244, 1);
+}
+
+.spinning-record {
+  height: 60vh;
   animation: spin 4s linear normal infinite;
-  /* background: url('record.png') no-repeat; */
+  opacity: 0.7;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  background-color: rgba(250, 229, 244, 0.8);
+  padding: 2rem;
+  border-radius: 6rem;
 }
 
 @keyframes spin {
