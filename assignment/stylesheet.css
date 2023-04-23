@@ -1,14 +1,33 @@
-header {
+/* header {
     background-color:#2E1114;
     color:whitesmoke;
     text-align: center;
+} */
+
+h1 {
+    background-color:#2E1114;
+    color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0%;
 }
 
-main {
+h2 {
+    background-color:#2E1114;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 0%;
+}
+
+p {
     background-color:#adadad;
     padding: 1em;
     text-align: center;
 }
+/* main {
+    background-color:#adadad;
+    padding: 1em;
+    text-align: center;
+} */
 
 body {
     background:url(../assignment/record.png);
