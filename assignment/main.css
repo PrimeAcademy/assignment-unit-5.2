@@ -1,12 +1,31 @@
 header{
-    background-color: black;
-    color: azure;
+    background-color: rgba(1, 33, 107, 0.9);
+    
     text-align: center;
+    box-shadow: 0px 20px 20px rgb(0, 0, 0, 0.1), 0px 20px 20px rgb(0, 0, 0, 0.1);
+}
+
+.h1-style{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    color: azure;
+}
+
+.h2-style{
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+color: rgb(226, 205, 255);
 }
 
 main{
     background-color: lightgray;
     padding: 1em;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
 
 body{
@@ -14,6 +33,7 @@ body{
     background-repeat: repeat;
     margin: 0;
 }
+
 
 
 /* Add a Stylesheet:
