@@ -1,0 +1,19 @@
+#id-example {
+    background-color: orangered;
+    color: peachpuff;
+    text-align: center;
+}
+
+.main {
+    background-color: #d4d0d0;
+    padding: 1em;
+}
+
+body {
+    background-image: url(record.png);
+    background-repeat: repeat;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
