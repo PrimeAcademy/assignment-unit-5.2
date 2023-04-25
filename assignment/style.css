@@ -1,12 +1,13 @@
 main {
-    background-color: lightgrey;
+    background-color: yellow;
     padding: 1em;
-    border:
+    color: turquoise;
+    text-align: center;
 }
 .header {
-    background-color: darkcyan;
-    color: azure;
- 
+    background-color:deeppink;
+    color: chartreuse;
+    text-align: center;
 }
 body {
     background-image: url("record.png");
